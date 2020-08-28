@@ -1,6 +1,7 @@
 import React from 'react';
 import CollegeCard from '../CollegeCard/CollegeCard';
 import styles from './CollegeList.module.css'
+// import InfiniteScroll from 'react-infinite-scroller';
 
 export default function CollegeList({colleges}){
     console.log(colleges)

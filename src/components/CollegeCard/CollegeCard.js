@@ -15,7 +15,7 @@ export default function CollegeCard ({college}){
                 }
                 
                 <div className={styles.image_container}>
-                    <img src={college_image} className="fluid-img"/>
+                    <img src={college_image} alt="college " className="fluid-img"/>
                 </div>
                 <div className={styles.header_rating}>
                     <p><b>{college.rating}</b>/5</p>
